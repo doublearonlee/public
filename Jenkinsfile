@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'python-35-centos7' } }
+    agent { docker { image 'python' } }
     stages {
         stage('build') {
             steps {
